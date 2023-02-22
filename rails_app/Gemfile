@@ -53,7 +53,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem 'rbs'
   gem 'rbs_rails', require: false
-  gem 'steep'
+  gem 'steep', require: false
 end
 
 group :development do
