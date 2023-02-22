@@ -1,3 +1,9 @@
 class TestModel
+  @buzzword: String
+
+  def initialize: (buzzword: String) -> untyped
+
+
   def hello_world: (String) -> String
-end 
+  def hello_buzzword: -> untyped
+end

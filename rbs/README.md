@@ -8,4 +8,6 @@ VSCode拡張の[Steep](https://marketplace.visualstudio.com/items?itemName=souta
  2. `bundle install` を実行
  3. このディレクトリをVSCodeで開く
    * ルートディレクトリに `Steepfile` がいないとSteep IDEが有効にならないため、直接このディレクトリを開く必要がある
-   * 上手く型検査が動かない場合はVSCodeを再起動してみる。
+   * 上手く型検査が動かない場合
+     * VSCodeを再起動してみる。
+     * VSCodeのコマンドパレットで'''Steep: Restart all'''を実行してみる
