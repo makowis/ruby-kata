@@ -1,0 +1,3 @@
+class TestModel
+  def hello_world: (String) -> String
+end 

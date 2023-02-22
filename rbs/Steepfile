@@ -1,0 +1,7 @@
+target :app do
+  check "lib"
+  signature "sig"
+
+  # 最も強いエラーレベルでlib配下のコードをチェックするように設定
+  configure_code_diagnostics(Steep::Diagnostic::Ruby.all_error)
+end
